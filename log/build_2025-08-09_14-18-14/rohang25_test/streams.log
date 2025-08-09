@@ -1,0 +1,255 @@
+[0.010s] Invoking command in '/home/jaehwan/rohang25_R1/build/rohang25_test': AMENT_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/local/lib/python3.10/dist-packages:/home/jaehwan/rohang25_R1/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/rohang25_test -- -j12 -l12
+[0.028s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.124s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.139s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.140s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.144s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.150s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.157s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.165s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.180s] -- Found px4_msgs: 2.0.1 (/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/cmake)
+[0.188s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.204s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.205s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.284s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.309s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.309s] -- Found mavros_msgs: 2.9.0 (/opt/ros/humble/share/mavros_msgs/cmake)
+[0.364s] -- Found yolov11_msgs: 0.0.1 (/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/cmake)
+[0.372s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.579s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.844s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.950s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.968s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.985s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.985s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.985s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.007s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.007s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.007s]   rosidl_target_interfaces()
+[1.007s] Call Stack (most recent call first):
+[1.007s]   CMakeLists.txt:96 (rosidl_target_interfaces)
+[1.008s] 
+[1.008s] [0m
+[1.008s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.015s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.016s] -- Configured cppcheck include dirs: /home/jaehwan/rohang25_R1/src/rohang25_test/include;$<BUILD_INTERFACE:/home/jaehwan/rohang25_R1/src/rohang25_test/include/rohang25_test>
+[1.016s] -- Configured cppcheck exclude dirs and/or files: 
+[1.016s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.016s] -- Added test 'lint_cmake' to check CMake code style
+[1.017s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.017s] -- Added test 'uncrustify' to check C / C++ code style
+[1.017s] -- Configured uncrustify additional arguments: 
+[1.017s] -- Added test 'xmllint' to check XML markup files
+[1.019s] -- Configuring done
+[1.061s] -- Generating done
+[1.076s] -- Build files have been written to: /home/jaehwan/rohang25_R1/build/rohang25_test
+[1.102s] [35m[1mConsolidate compiler generated dependencies of target CUSTOMLIB[0m
+[1.102s] [35m[1mConsolidate compiler generated dependencies of target LOG[0m
+[1.102s] [35m[1mConsolidate compiler generated dependencies of target rohang25_test__rosidl_generator_c[0m
+[1.104s] [35m[1mConsolidate compiler generated dependencies of target GUIDANCE[0m
+[1.105s] [35m[1mConsolidate compiler generated dependencies of target CONTROL[0m
+[1.114s] [  4%] Built target rohang25_test__cpp
+[1.114s] [  9%] Built target CUSTOMLIB
+[1.117s] [ 21%] Built target GUIDANCE
+[1.117s] [ 21%] [32m[1mLinking CXX shared library libLOG.so[0m
+[1.117s] [ 23%] Built target rohang25_test__rosidl_generator_c
+[1.122s] [ 26%] Built target ament_cmake_python_copy_rohang25_test
+[1.122s] [ 26%] [32mBuilding CXX object CMakeFiles/CONTROL.dir/src/control.cpp.o[0m
+[1.126s] [35m[1mConsolidate compiler generated dependencies of target rohang25_test__rosidl_typesupport_cpp[0m
+[1.126s] [35m[1mConsolidate compiler generated dependencies of target rohang25_test__rosidl_typesupport_fastrtps_cpp[0m
+[1.126s] [35m[1mConsolidate compiler generated dependencies of target rohang25_test__rosidl_typesupport_introspection_cpp[0m
+[1.129s] [35m[1mConsolidate compiler generated dependencies of target rohang25_test__rosidl_typesupport_c[0m
+[1.129s] [35m[1mConsolidate compiler generated dependencies of target rohang25_test__rosidl_typesupport_fastrtps_c[0m
+[1.129s] [35m[1mConsolidate compiler generated dependencies of target rohang25_test__rosidl_typesupport_introspection_c[0m
+[1.141s] [ 45%] Built target rohang25_test__rosidl_typesupport_fastrtps_cpp
+[1.141s] [ 45%] Built target rohang25_test__rosidl_typesupport_introspection_cpp
+[1.141s] [ 54%] Built target rohang25_test__rosidl_typesupport_c
+[1.141s] [ 50%] Built target rohang25_test__rosidl_typesupport_cpp
+[1.141s] [ 61%] Built target rohang25_test__rosidl_typesupport_introspection_c
+[1.144s] [ 69%] Built target rohang25_test__rosidl_typesupport_fastrtps_c
+[1.162s] [ 69%] Built target rohang25_test
+[1.179s] [ 71%] Built target rohang25_test__py
+[1.187s] [35m[1mConsolidate compiler generated dependencies of target rohang25_test__rosidl_generator_py[0m
+[1.197s] [ 76%] Built target rohang25_test__rosidl_generator_py
+[1.209s] [35m[1mConsolidate compiler generated dependencies of target rohang25_test__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.209s] [35m[1mConsolidate compiler generated dependencies of target rohang25_test__rosidl_typesupport_introspection_c__pyext[0m
+[1.209s] [35m[1mConsolidate compiler generated dependencies of target rohang25_test__rosidl_typesupport_c__pyext[0m
+[1.221s] [ 80%] Built target rohang25_test__rosidl_typesupport_c__pyext
+[1.221s] [ 85%] Built target rohang25_test__rosidl_typesupport_introspection_c__pyext
+[1.221s] [ 90%] Built target rohang25_test__rosidl_typesupport_fastrtps_c__pyext
+[1.232s] [ 92%] Built target LOG
+[1.306s] running egg_info
+[1.319s] writing rohang25_test.egg-info/PKG-INFO
+[1.320s] writing dependency_links to rohang25_test.egg-info/dependency_links.txt
+[1.320s] writing top-level names to rohang25_test.egg-info/top_level.txt
+[1.356s] reading manifest file 'rohang25_test.egg-info/SOURCES.txt'
+[1.357s] writing manifest file 'rohang25_test.egg-info/SOURCES.txt'
+[1.387s] [ 92%] Built target ament_cmake_python_build_rohang25_test_egg
+[3.711s] [01m[K/home/jaehwan/rohang25_R1/src/rohang25_test/src/control.cpp:[m[K In function ‘[01m[Kbool is_increase_dist(double)[m[K’:
+[3.711s] [01m[K/home/jaehwan/rohang25_R1/src/rohang25_test/src/control.cpp:204:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[3.711s]   204 | [01;35m[K}[m[K
+[3.711s]       | [01;35m[K^[m[K
+[3.961s] [ 95%] [32m[1mLinking CXX shared library libCONTROL.so[0m
+[4.061s] [ 95%] Built target CONTROL
+[4.070s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_test[0m
+[4.083s] [ 97%] [32mBuilding CXX object CMakeFiles/offboard_control_test.dir/src/main_offboard.cpp.o[0m
+[6.498s] [01m[K/home/jaehwan/rohang25_R1/src/rohang25_test/src/main_offboard.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl(std::string)[m[K’:
+[6.499s] [01m[K/home/jaehwan/rohang25_R1/src/rohang25_test/src/main_offboard.cpp:217:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KOffboardControl::heading[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.499s]   217 |         float [01;35m[Kheading[m[K;                   // for calculation inside loop
+[6.499s]       |               [01;35m[K^~~~~~~[m[K
+[6.499s] [01m[K/home/jaehwan/rohang25_R1/src/rohang25_test/src/main_offboard.cpp:195:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KOffboardControl::State OffboardControl::state_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.499s]   195 |         } [01;35m[Kstate_[m[K;
+[6.499s]       |           [01;35m[K^~~~~~[m[K
+[6.499s] [01m[K/home/jaehwan/rohang25_R1/src/rohang25_test/src/main_offboard.cpp:57:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.499s]    57 |         [01;35m[KOffboardControl[m[K(std::string px4_namespace) : Node("offboard_control_test"),
+[6.499s]       |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[26.619s] [100%] [32m[1mLinking CXX executable offboard_control_test[0m
+[27.895s] [100%] Built target offboard_control_test
+[27.905s] Invoked command in '/home/jaehwan/rohang25_R1/build/rohang25_test' returned '0': AMENT_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/local/lib/python3.10/dist-packages:/home/jaehwan/rohang25_R1/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/rohang25_test -- -j12 -l12
+[27.906s] Invoking command in '/home/jaehwan/rohang25_R1/build/rohang25_test': AMENT_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/local/lib/python3.10/dist-packages:/home/jaehwan/rohang25_R1/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/rohang25_test
+[27.912s] -- Install configuration: "Debug"
+[27.912s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/ament_index/resource_index/rosidl_interfaces/rohang25_test
+[27.912s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test
+[27.912s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/msg
+[27.912s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/msg/rosidl_generator_c__visibility_control.h
+[27.912s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv
+[27.912s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail
+[27.912s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail/set_guidance_param__struct.h
+[27.912s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail/set_guidance_param__functions.c
+[27.912s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail/set_guidance_param__functions.h
+[27.912s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail/set_guidance_param__type_support.h
+[27.912s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/set_guidance_param.h
+[27.912s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/environment/library_path.sh
+[27.912s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/environment/library_path.dsv
+[27.913s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/lib/librohang25_test__rosidl_generator_c.so
+[27.913s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test
+[27.913s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/msg
+[27.913s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.913s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv
+[27.913s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail
+[27.914s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail/set_guidance_param__rosidl_typesupport_fastrtps_c.h
+[27.914s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/lib/librohang25_test__rosidl_typesupport_fastrtps_c.so
+[27.914s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test
+[27.914s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/msg
+[27.914s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/msg/rosidl_generator_cpp__visibility_control.hpp
+[27.915s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv
+[27.915s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail
+[27.915s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail/set_guidance_param__struct.hpp
+[27.915s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail/set_guidance_param__type_support.hpp
+[27.915s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail/set_guidance_param__builder.hpp
+[27.915s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail/set_guidance_param__traits.hpp
+[27.915s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/set_guidance_param.hpp
+[27.915s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test
+[27.915s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/msg
+[27.915s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.915s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv
+[27.915s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail
+[27.915s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail/set_guidance_param__rosidl_typesupport_fastrtps_cpp.hpp
+[27.915s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail/dds_fastrtps
+[27.916s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/lib/librohang25_test__rosidl_typesupport_fastrtps_cpp.so
+[27.916s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test
+[27.916s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/msg
+[27.916s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.916s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv
+[27.917s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail
+[27.917s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail/set_guidance_param__rosidl_typesupport_introspection_c.h
+[27.917s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail/set_guidance_param__type_support.c
+[27.917s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/lib/librohang25_test__rosidl_typesupport_introspection_c.so
+[27.918s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/lib/librohang25_test__rosidl_typesupport_c.so
+[27.918s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test
+[27.918s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv
+[27.918s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail
+[27.918s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail/set_guidance_param__type_support.cpp
+[27.918s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/rohang25_test/srv/detail/set_guidance_param__rosidl_typesupport_introspection_cpp.hpp
+[27.919s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/lib/librohang25_test__rosidl_typesupport_introspection_cpp.so
+[27.919s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/lib/librohang25_test__rosidl_typesupport_cpp.so
+[27.919s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/environment/pythonpath.sh
+[27.919s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/environment/pythonpath.dsv
+[27.919s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test-0.1.0-py3.10.egg-info
+[27.919s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test-0.1.0-py3.10.egg-info/PKG-INFO
+[27.920s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test-0.1.0-py3.10.egg-info/dependency_links.txt
+[27.920s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test-0.1.0-py3.10.egg-info/SOURCES.txt
+[27.920s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test-0.1.0-py3.10.egg-info/top_level.txt
+[27.921s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test
+[27.921s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test/rohang25_test_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[27.921s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test/_rohang25_test_s.ep.rosidl_typesupport_introspection_c.c
+[27.921s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test/rohang25_test_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[27.921s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test/librohang25_test__rosidl_generator_py.so
+[27.921s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test/rohang25_test_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[27.921s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test/_rohang25_test_s.ep.rosidl_typesupport_c.c
+[27.921s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test/_rohang25_test_s.ep.rosidl_typesupport_fastrtps_c.c
+[27.921s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test/__init__.py
+[27.921s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test/srv
+[27.921s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test/srv/__init__.py
+[27.921s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test/srv/_set_guidance_param.py
+[27.921s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test/srv/_set_guidance_param_s.c
+[27.957s] Listing '/home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test'...
+[27.957s] Compiling '/home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test/__init__.py'...
+[27.957s] Listing '/home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test/srv'...
+[27.960s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test/rohang25_test_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[27.960s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test/rohang25_test_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[27.961s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/local/lib/python3.10/dist-packages/rohang25_test/rohang25_test_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[27.961s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/lib/librohang25_test__rosidl_generator_py.so
+[27.962s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/srv/SetGuidanceParam.idl
+[27.962s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/srv/SetGuidanceParam.srv
+[27.962s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/srv/SetGuidanceParam_Request.msg
+[27.962s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/srv/SetGuidanceParam_Response.msg
+[27.962s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25_test/lib/libCONTROL.so
+[27.962s] -- Set runtime path of "/home/jaehwan/rohang25_R1/install/rohang25_test/lib/libCONTROL.so" to ""
+[27.963s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25_test/lib/libLOG.so
+[27.963s] -- Set runtime path of "/home/jaehwan/rohang25_R1/install/rohang25_test/lib/libLOG.so" to ""
+[27.964s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/lib/libGUIDANCE.so
+[27.964s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/lib/libCUSTOMLIB.so
+[27.964s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/launch
+[27.964s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/launch/rohang25_test.launch.py
+[27.965s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25_test/lib/rohang25_test/offboard_control_test
+[27.991s] -- Set runtime path of "/home/jaehwan/rohang25_R1/install/rohang25_test/lib/rohang25_test/offboard_control_test" to ""
+[27.991s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test
+[27.991s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/mission.h
+[27.991s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/algebra.h
+[27.991s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/guidance.h
+[27.991s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/frame.h
+[27.991s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/config.h
+[27.991s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/log.h
+[27.991s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/control.h
+[27.991s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/include/rohang25_test/global_def.h
+[27.991s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/ament_index/resource_index/package_run_dependencies/rohang25_test
+[27.991s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25_test/share/ament_index/resource_index/parent_prefix_path/rohang25_test
+[27.992s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/environment/ament_prefix_path.sh
+[27.992s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/environment/ament_prefix_path.dsv
+[27.992s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/environment/path.sh
+[27.992s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/environment/path.dsv
+[27.992s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/local_setup.bash
+[27.992s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/local_setup.sh
+[27.992s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/local_setup.zsh
+[27.992s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/local_setup.dsv
+[27.992s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/package.dsv
+[27.992s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/ament_index/resource_index/packages/rohang25_test
+[27.993s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/export_rohang25_test__rosidl_generator_cExport.cmake
+[27.993s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/export_rohang25_test__rosidl_generator_cExport-debug.cmake
+[27.993s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/export_rohang25_test__rosidl_typesupport_fastrtps_cExport.cmake
+[27.993s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/export_rohang25_test__rosidl_typesupport_fastrtps_cExport-debug.cmake
+[27.993s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/export_rohang25_test__rosidl_generator_cppExport.cmake
+[27.994s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/export_rohang25_test__rosidl_typesupport_fastrtps_cppExport.cmake
+[27.994s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/export_rohang25_test__rosidl_typesupport_fastrtps_cppExport-debug.cmake
+[27.994s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/rohang25_test__rosidl_typesupport_introspection_cExport.cmake
+[27.994s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/rohang25_test__rosidl_typesupport_introspection_cExport-debug.cmake
+[27.994s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/rohang25_test__rosidl_typesupport_cExport.cmake
+[27.994s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/rohang25_test__rosidl_typesupport_cExport-debug.cmake
+[27.994s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/rohang25_test__rosidl_typesupport_introspection_cppExport.cmake
+[27.994s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/rohang25_test__rosidl_typesupport_introspection_cppExport-debug.cmake
+[27.995s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/rohang25_test__rosidl_typesupport_cppExport.cmake
+[27.995s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/rohang25_test__rosidl_typesupport_cppExport-debug.cmake
+[27.995s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/export_rohang25_test__rosidl_generator_pyExport.cmake
+[27.995s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/export_rohang25_test__rosidl_generator_pyExport-debug.cmake
+[27.995s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/rosidl_cmake-extras.cmake
+[27.995s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.995s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.995s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/ament_cmake_export_libraries-extras.cmake
+[27.995s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/ament_cmake_export_targets-extras.cmake
+[27.995s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.995s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.995s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/rohang25_testConfig.cmake
+[27.995s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/cmake/rohang25_testConfig-version.cmake
+[27.995s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/package.xml
+[27.997s] Invoked command in '/home/jaehwan/rohang25_R1/build/rohang25_test' returned '0': AMENT_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/local/lib/python3.10/dist-packages:/home/jaehwan/rohang25_R1/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/rohang25_test

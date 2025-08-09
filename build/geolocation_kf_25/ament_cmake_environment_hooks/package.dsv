@@ -1,0 +1,4 @@
+source;share/geolocation_kf_25/local_setup.bash
+source;share/geolocation_kf_25/local_setup.dsv
+source;share/geolocation_kf_25/local_setup.sh
+source;share/geolocation_kf_25/local_setup.zsh

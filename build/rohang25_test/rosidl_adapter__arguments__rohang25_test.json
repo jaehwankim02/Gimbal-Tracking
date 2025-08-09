@@ -1,0 +1,6 @@
+{
+  "package_name": "rohang25_test",
+  "non_idl_tuples": [
+    "/home/jaehwan/rohang25_R1/src/rohang25_test:srv/SetGuidanceParam.srv"
+  ]
+}

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rohang25_test/srv/SetGuidanceParam.srv
+// generated code does not contain a copyright notice
+
+
+module rohang25_test {
+  module srv {
+    @verbatim (language="comment", text=
+      "srv/SetGuidanceParam.srv")
+    struct SetGuidanceParam_Request {
+      @verbatim (language="comment", text=
+        "요청: 몇 번째 파라미터(index) 를 어떤 값(value) 으로 바꿀지")
+      uint8 index;
+
+      double value;
+    };
+    @verbatim (language="comment", text=
+      "응답: 성공 여부")
+    struct SetGuidanceParam_Response {
+      boolean success;
+    };
+  };
+};

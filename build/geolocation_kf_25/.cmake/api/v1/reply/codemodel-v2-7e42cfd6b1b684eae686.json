@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f9551843e556ac88f057.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "geolocation_kf_25",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "KALMANFILTER::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KALMANFILTER-4f6bd9234b97febb1991.json",
+					"name" : "KALMANFILTER",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geolocation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geolocation-5c7fb0ad62d3a18e610f.json",
+					"name" : "geolocation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "geolocation_kf_25_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-geolocation_kf_25_uninstall-17b2c22ab263ab084cb8.json",
+					"name" : "geolocation_kf_25_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e144bf6ac238daf50d78.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jaehwan/rohang25_R1/build/geolocation_kf_25",
+		"source" : "/home/jaehwan/rohang25_R1/src/geolocation_kf_25"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

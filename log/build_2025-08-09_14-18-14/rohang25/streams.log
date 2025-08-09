@@ -1,0 +1,90 @@
+[0.012s] Invoking command in '/home/jaehwan/rohang25_R1/build/rohang25': AMENT_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaehwan/rohang25_R1/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/rohang25 -- -j12 -l12
+[0.027s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.126s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.150s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.152s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.159s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.165s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.180s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.196s] -- Found px4_msgs: 2.0.1 (/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/cmake)
+[0.203s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.220s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.220s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.285s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.309s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.320s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.320s] -- Found mavros_msgs: 2.9.0 (/opt/ros/humble/share/mavros_msgs/cmake)
+[0.365s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.419s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.419s] -- Configured cppcheck include dirs: /home/jaehwan/rohang25_R1/src/rohang25/include;$<BUILD_INTERFACE:/home/jaehwan/rohang25_R1/src/rohang25/include/rohang25>
+[0.419s] -- Configured cppcheck exclude dirs and/or files: 
+[0.419s] -- Added test 'lint_cmake' to check CMake code style
+[0.420s] -- Added test 'uncrustify' to check C / C++ code style
+[0.420s] -- Configured uncrustify additional arguments: 
+[0.420s] -- Added test 'xmllint' to check XML markup files
+[0.421s] -- Configuring done
+[0.437s] -- Generating done
+[0.442s] -- Build files have been written to: /home/jaehwan/rohang25_R1/build/rohang25
+[0.461s] [35m[1mConsolidate compiler generated dependencies of target LOG[0m
+[0.461s] [35m[1mConsolidate compiler generated dependencies of target CUSTOMLIB[0m
+[0.462s] [35m[1mConsolidate compiler generated dependencies of target CONTROL[0m
+[0.470s] [ 20%] [32m[1mLinking CXX shared library libLOG.so[0m
+[0.471s] [ 50%] Built target CUSTOMLIB
+[0.473s] [ 60%] [32mBuilding CXX object CMakeFiles/CONTROL.dir/src/control.cpp.o[0m
+[0.578s] [ 70%] Built target LOG
+[2.603s] [01m[K/home/jaehwan/rohang25_R1/src/rohang25/src/control.cpp:[m[K In function ‘[01m[Kbool is_increase_dist(double)[m[K’:
+[2.604s] [01m[K/home/jaehwan/rohang25_R1/src/rohang25/src/control.cpp:204:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.604s]   204 | [01;35m[K}[m[K
+[2.604s]       | [01;35m[K^[m[K
+[2.676s] [ 80%] [32m[1mLinking CXX shared library libCONTROL.so[0m
+[2.767s] [ 80%] Built target CONTROL
+[2.776s] [35m[1mConsolidate compiler generated dependencies of target offboard_control[0m
+[2.788s] [ 90%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/main_offboard.cpp.o[0m
+[4.811s] [01m[K/home/jaehwan/rohang25_R1/src/rohang25/src/main_offboard.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl(std::string)[m[K’:
+[4.811s] [01m[K/home/jaehwan/rohang25_R1/src/rohang25/src/main_offboard.cpp:147:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KOffboardControl::current_altitude_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.811s]   147 |         float [01;35m[Kcurrent_altitude_[m[K;
+[4.811s]       |               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[4.811s] [01m[K/home/jaehwan/rohang25_R1/src/rohang25/src/main_offboard.cpp:128:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KOffboardControl::State OffboardControl::state_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.811s]   128 |         } [01;35m[Kstate_[m[K;
+[4.811s]       |           [01;35m[K^~~~~~[m[K
+[4.811s] [01m[K/home/jaehwan/rohang25_R1/src/rohang25/src/main_offboard.cpp:41:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[4.811s]    41 |         [01;35m[KOffboardControl[m[K(std::string px4_namespace) : Node("offboard_control"),
+[4.811s]       |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[4.840s] [01m[K/home/jaehwan/rohang25_R1/src/rohang25/src/main_offboard.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::publish_trajectory_setpoint()[m[K’:
+[4.840s] [01m[K/home/jaehwan/rohang25_R1/src/rohang25/src/main_offboard.cpp:411:72:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[4.840s]   411 |              if( [01;35m[Kis_arrived_hori(local_pose, WPT[i], h_err) && is_arrived_verti(local_pose, WPT[i], v_err)[m[K || is_increase_dist(remain_dist(local_pose, WPT[i])) ){
+[4.840s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.840s] 
+[15.312s] [100%] [32m[1mLinking CXX executable offboard_control[0m
+[16.100s] [100%] Built target offboard_control
+[16.111s] Invoked command in '/home/jaehwan/rohang25_R1/build/rohang25' returned '0': AMENT_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaehwan/rohang25_R1/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/rohang25 -- -j12 -l12
+[16.112s] Invoking command in '/home/jaehwan/rohang25_R1/build/rohang25': AMENT_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaehwan/rohang25_R1/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/rohang25
+[16.120s] -- Install configuration: ""
+[16.120s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25/lib/rohang25/offboard_control
+[16.125s] -- Set runtime path of "/home/jaehwan/rohang25_R1/install/rohang25/lib/rohang25/offboard_control" to ""
+[16.125s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/include/rohang25
+[16.125s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/include/rohang25/mission.h
+[16.125s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/include/rohang25/algebra.h
+[16.125s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/include/rohang25/guidance.h
+[16.125s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/include/rohang25/frame.h
+[16.125s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/include/rohang25/config.h
+[16.125s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/include/rohang25/log.h
+[16.125s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/include/rohang25/control.h
+[16.125s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/include/rohang25/global_def.h
+[16.125s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/share/ament_index/resource_index/package_run_dependencies/rohang25
+[16.125s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25/share/ament_index/resource_index/parent_prefix_path/rohang25
+[16.126s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/environment/ament_prefix_path.sh
+[16.126s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/environment/ament_prefix_path.dsv
+[16.126s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/environment/path.sh
+[16.126s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/environment/path.dsv
+[16.126s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/local_setup.bash
+[16.126s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/local_setup.sh
+[16.127s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/local_setup.zsh
+[16.127s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/local_setup.dsv
+[16.127s] -- Installing: /home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/package.dsv
+[16.127s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/share/ament_index/resource_index/packages/rohang25
+[16.127s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/cmake/rohang25Config.cmake
+[16.127s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/cmake/rohang25Config-version.cmake
+[16.127s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/package.xml
+[16.129s] Invoked command in '/home/jaehwan/rohang25_R1/build/rohang25' returned '0': AMENT_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaehwan/rohang25_R1/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/rohang25

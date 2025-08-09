@@ -1,0 +1,4 @@
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real_final.cpp:[m[K In member function ‘[01m[Kvoid GimbalControlNode::control_loop()[m[K’:
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real_final.cpp:283:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdenom[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  283 |         double [01;35m[Kdenom[m[K    = std::hypot(v_world[0], v_world[2]);
+      |                [01;35m[K^~~~~[m[K

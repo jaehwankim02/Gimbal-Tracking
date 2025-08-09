@@ -1,0 +1,24 @@
+[1.380s] Invoking command in '/home/jaehwan/rohang25_R1/src/yolov11/src/yolov11': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/gscam LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaehwan/rohang25_R1/build/yolov11/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaehwan/rohang25_R1/install/yolov11/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/yolov11 build --build-base /home/jaehwan/rohang25_R1/build/yolov11/build install --record /home/jaehwan/rohang25_R1/build/yolov11/install.log --single-version-externally-managed install_data
+[1.442s] /home/jaehwan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[1.442s]   warnings.warn(msg)
+[1.538s] running egg_info
+[1.564s] writing ../../../../build/yolov11/yolov11.egg-info/PKG-INFO
+[1.564s] writing dependency_links to ../../../../build/yolov11/yolov11.egg-info/dependency_links.txt
+[1.565s] writing entry points to ../../../../build/yolov11/yolov11.egg-info/entry_points.txt
+[1.565s] writing requirements to ../../../../build/yolov11/yolov11.egg-info/requires.txt
+[1.565s] writing top-level names to ../../../../build/yolov11/yolov11.egg-info/top_level.txt
+[1.640s] reading manifest file '../../../../build/yolov11/yolov11.egg-info/SOURCES.txt'
+[1.641s] writing manifest file '../../../../build/yolov11/yolov11.egg-info/SOURCES.txt'
+[1.641s] running build
+[1.641s] running build_py
+[1.642s] copying yolov11/yolov11_node.py -> /home/jaehwan/rohang25_R1/build/yolov11/build/lib/yolov11
+[1.645s] running install
+[1.663s] running install_lib
+[1.712s] running install_data
+[1.712s] running install_egg_info
+[1.735s] removing '/home/jaehwan/rohang25_R1/install/yolov11/lib/python3.10/site-packages/yolov11-0.0.1-py3.10.egg-info' (and everything under it)
+[1.735s] Copying ../../../../build/yolov11/yolov11.egg-info to /home/jaehwan/rohang25_R1/install/yolov11/lib/python3.10/site-packages/yolov11-0.0.1-py3.10.egg-info
+[1.736s] running install_scripts
+[1.925s] Installing yolov11_node script to /home/jaehwan/rohang25_R1/install/yolov11/lib/yolov11
+[1.929s] writing list of installed files to '/home/jaehwan/rohang25_R1/build/yolov11/install.log'
+[1.997s] Invoked command in '/home/jaehwan/rohang25_R1/src/yolov11/src/yolov11' returned '0': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/gscam LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaehwan/rohang25_R1/build/yolov11/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaehwan/rohang25_R1/install/yolov11/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/yolov11 build --build-base /home/jaehwan/rohang25_R1/build/yolov11/build install --record /home/jaehwan/rohang25_R1/build/yolov11/install.log --single-version-externally-managed install_data

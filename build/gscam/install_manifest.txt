@@ -1,0 +1,4 @@
+/home/jaehwan/rohang25_R1/install/gscam/lib/libgscam.so
+/home/jaehwan/rohang25_R1/install/gscam/share/gscam/package.dsv
+/home/jaehwan/rohang25_R1/install/gscam/share/gscam/cmake/export_gscamExport.cmake
+/home/jaehwan/rohang25_R1/install/gscam/share/gscam/cmake/export_gscamExport-noconfig.cmake

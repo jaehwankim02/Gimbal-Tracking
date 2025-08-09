@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target gimbal_control_node[0m
+[ 50%] Built target gimbal_status_node
+[ 75%] [32mBuilding CXX object CMakeFiles/gimbal_control_node.dir/src/gimbal_control_node_real.cpp.o[0m
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:[m[K In constructor ‘[01m[KGimbalControlNode::GimbalControlNode()[m[K’:
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:57:33:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KDEAD_BAND_DEG[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   57 |         static constexpr double [01;35m[KDEAD_BAND_DEG[m[K = 2.0; // 2도 이하는 무시
+      |                                 [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:[m[K In member function ‘[01m[Kvoid GimbalControlNode::control_loop()[m[K’:
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:199:51:[m[K [01;31m[Kerror: [m[K‘[01m[KDEAD_BAND_DEG[m[K’ was not declared in this scope
+  199 |         if (std::fabs(new_pan - last_pan_deg_)  < [01;31m[KDEAD_BAND_DEG[m[K)  new_pan  = last_pan_deg_;
+      |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:200:52:[m[K [01;31m[Kerror: [m[K‘[01m[KDEAD_BAND_DEG[m[K’ was not declared in this scope
+  200 |         if (std::fabs(new_tilt - last_tilt_deg_) < [01;31m[KDEAD_BAND_DEG[m[K) new_tilt = last_tilt_deg_
+      |                                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:202:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kencode_attitude[m[K’
+  202 |         [01;31m[Kencode_attitude[m[K(new_pan, new_tilt, yaw_hex_, pitch_hex_);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gimbal_control_node.dir/build.make:76: CMakeFiles/gimbal_control_node.dir/src/gimbal_control_node_real.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gimbal_control_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

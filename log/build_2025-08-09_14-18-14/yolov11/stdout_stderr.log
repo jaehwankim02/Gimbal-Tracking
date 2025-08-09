@@ -1,0 +1,26 @@
+/home/jaehwan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../../../build/yolov11/yolov11.egg-info
+writing ../../../../build/yolov11/yolov11.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/yolov11/yolov11.egg-info/dependency_links.txt
+writing entry points to ../../../../build/yolov11/yolov11.egg-info/entry_points.txt
+writing requirements to ../../../../build/yolov11/yolov11.egg-info/requires.txt
+writing top-level names to ../../../../build/yolov11/yolov11.egg-info/top_level.txt
+writing manifest file '../../../../build/yolov11/yolov11.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/yolov11/yolov11.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/yolov11/yolov11.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jaehwan/rohang25_R1/build/yolov11/build/lib/yolov11
+copying yolov11/yolov11_node.py -> /home/jaehwan/rohang25_R1/build/yolov11/build/lib/yolov11
+copying yolov11/__init__.py -> /home/jaehwan/rohang25_R1/build/yolov11/build/lib/yolov11
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/jaehwan/rohang25_R1/install/yolov11/lib/python3.10/site-packages/yolov11-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../../../build/yolov11/yolov11.egg-info to /home/jaehwan/rohang25_R1/install/yolov11/lib/python3.10/site-packages/yolov11-0.0.1-py3.10.egg-info
+running install_scripts
+Installing yolov11_node script to /home/jaehwan/rohang25_R1/install/yolov11/lib/yolov11
+writing list of installed files to '/home/jaehwan/rohang25_R1/build/yolov11/install.log'

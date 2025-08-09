@@ -1,0 +1,21 @@
+[0.039s] Invoking command in '/home/jaehwan/rohang25_R1/build/gimbal_control_25': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/gimbal_control_25 -- -j12 -l12
+[0.130s] [ 50%] Built target gimbal_status_node
+[0.151s] [35m[1mConsolidate compiler generated dependencies of target gimbal_control_node[0m
+[0.190s] [ 75%] [32mBuilding CXX object CMakeFiles/gimbal_control_node.dir/src/gimbal_control_node_real.cpp.o[0m
+[5.081s] [01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:[m[K In member function ‘[01m[Kvoid GimbalControlNode::control_loop()[m[K’:
+[5.081s] [01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:205:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble new_tilt[m[K’
+[5.081s]   205 |         double [01;31m[Knew_tilt[m[K = 0.5*new_tilt+0.5*last_tilt_deg_;
+[5.081s]       |                [01;31m[K^~~~~~~~[m[K
+[5.081s] [01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:191:16:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble new_tilt[m[K’ previously declared here
+[5.081s]   191 |         double [01;36m[Knew_tilt[m[K = -std::atan2(v_world[1], denom) * 180.0 / M_PI;
+[5.081s]       |                [01;36m[K^~~~~~~~[m[K
+[5.081s] [01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:206:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble new_pan[m[K’
+[5.081s]   206 |         double [01;31m[Knew_pan[m[K = new_pan+0.8*last_pan_deg_;
+[5.081s]       |                [01;31m[K^~~~~~~[m[K
+[5.081s] [01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:189:16:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble new_pan[m[K’ previously declared here
+[5.081s]   189 |         double [01;36m[Knew_pan[m[K  = -std::atan2(v_world[0], v_world[2]) * 180.0 / M_PI;
+[5.081s]       |                [01;36m[K^~~~~~~[m[K
+[10.470s] gmake[2]: *** [CMakeFiles/gimbal_control_node.dir/build.make:76: CMakeFiles/gimbal_control_node.dir/src/gimbal_control_node_real.cpp.o] Error 1
+[10.471s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gimbal_control_node.dir/all] Error 2
+[10.479s] gmake: *** [Makefile:146: all] Error 2
+[10.480s] Invoked command in '/home/jaehwan/rohang25_R1/build/gimbal_control_25' returned '2': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/gimbal_control_25 -- -j12 -l12

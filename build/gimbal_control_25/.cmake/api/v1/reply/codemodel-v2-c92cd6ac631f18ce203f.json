@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bc81fb717f75226dfddb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gimbal_control_25",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gimbal_control_25_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gimbal_control_25_uninstall-c16b2eb8ad49c019d4de.json",
+					"name" : "gimbal_control_25_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gimbal_control_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gimbal_control_node-b122bf496556e02bf333.json",
+					"name" : "gimbal_control_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gimbal_status_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gimbal_status_node-4c487f5cb04310ba1bd0.json",
+					"name" : "gimbal_status_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gimbal_tilt_90::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gimbal_tilt_90-ae878673d587f7ca6bd0.json",
+					"name" : "gimbal_tilt_90",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1ad9d335750cb9264824.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jaehwan/rohang25_R1/build/gimbal_control_25",
+		"source" : "/home/jaehwan/rohang25_R1/src/gimbal_control_25"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

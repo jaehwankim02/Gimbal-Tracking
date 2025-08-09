@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target gimbal_control_node[0m
+[ 50%] Built target gimbal_status_node
+[ 75%] [32mBuilding CXX object CMakeFiles/gimbal_control_node.dir/src/gimbal_control_node_real_final.cpp.o[0m
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real_final.cpp:[m[K In member function ‘[01m[Kvoid GimbalControlNode::control_loop()[m[K’:
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real_final.cpp:283:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdenom[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  283 |         double [01;35m[Kdenom[m[K    = std::hypot(v_world[0], v_world[2]);
+      |                [01;35m[K^~~~~[m[K
+[100%] [32m[1mLinking CXX executable gimbal_control_node[0m
+[100%] Built target gimbal_control_node
+-- Install configuration: ""
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/lib/gimbal_control_25/gimbal_status_node
+-- Installing: /home/jaehwan/rohang25_R1/install/gimbal_control_25/lib/gimbal_control_25/gimbal_control_node
+-- Set runtime path of "/home/jaehwan/rohang25_R1/install/gimbal_control_25/lib/gimbal_control_25/gimbal_control_node" to ""
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/ament_index/resource_index/package_run_dependencies/gimbal_control_25
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/ament_index/resource_index/parent_prefix_path/gimbal_control_25
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/environment/path.sh
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/environment/path.dsv
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/local_setup.bash
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/local_setup.sh
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/local_setup.zsh
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/local_setup.dsv
+-- Installing: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/package.dsv
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/ament_index/resource_index/packages/gimbal_control_25
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/cmake/gimbal_control_25Config.cmake
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/cmake/gimbal_control_25Config-version.cmake
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/package.xml

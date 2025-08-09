@@ -1,0 +1,8 @@
+[100%] Built target gscam
+[100%] Built target gscam_node
+-- Install configuration: ""
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gscam/lib/libgscam.so
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gscam/share/gscam/examples
+-- Installing: /home/jaehwan/rohang25_R1/install/gscam/share/gscam/package.dsv
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gscam/share/gscam/cmake/export_gscamExport.cmake
+-- Up-to-date: /home/jaehwan/rohang25_R1/install/gscam/share/gscam/cmake/export_gscamExport-noconfig.cmake

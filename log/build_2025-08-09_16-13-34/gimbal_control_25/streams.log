@@ -1,0 +1,47 @@
+[0.036s] Invoking command in '/home/jaehwan/rohang25_R1/build/gimbal_control_25': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/gimbal_control_25 -- -j12 -l12
+[0.066s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.312s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.350s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.354s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.362s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.377s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.387s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.444s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.445s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.577s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.635s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.652s] -- Found px4_msgs: 2.0.1 (/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/cmake)
+[0.667s] -- Found yolov11_msgs: 0.0.1 (/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/cmake)
+[0.680s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.710s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.816s] -- Configuring done
+[0.834s] -- Generating done
+[0.841s] -- Build files have been written to: /home/jaehwan/rohang25_R1/build/gimbal_control_25
+[0.882s] [35m[1mConsolidate compiler generated dependencies of target gimbal_status_node[0m
+[0.883s] [35m[1mConsolidate compiler generated dependencies of target gimbal_control_node[0m
+[0.910s] [ 25%] [32mBuilding CXX object CMakeFiles/gimbal_control_node.dir/src/gimbal_control_node_real.cpp.o[0m
+[0.914s] [ 75%] Built target gimbal_status_node
+[18.045s] [100%] [32m[1mLinking CXX executable gimbal_control_node[0m
+[18.925s] [100%] Built target gimbal_control_node
+[18.944s] Invoked command in '/home/jaehwan/rohang25_R1/build/gimbal_control_25' returned '0': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/gimbal_control_25 -- -j12 -l12
+[18.945s] Invoking command in '/home/jaehwan/rohang25_R1/build/gimbal_control_25': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/gimbal_control_25
+[18.954s] -- Install configuration: ""
+[18.955s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/lib/gimbal_control_25/gimbal_status_node
+[18.955s] -- Installing: /home/jaehwan/rohang25_R1/install/gimbal_control_25/lib/gimbal_control_25/gimbal_control_node
+[18.961s] -- Set runtime path of "/home/jaehwan/rohang25_R1/install/gimbal_control_25/lib/gimbal_control_25/gimbal_control_node" to ""
+[18.961s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/ament_index/resource_index/package_run_dependencies/gimbal_control_25
+[18.961s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/ament_index/resource_index/parent_prefix_path/gimbal_control_25
+[18.962s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/environment/ament_prefix_path.sh
+[18.962s] -- Installing: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/environment/ament_prefix_path.dsv
+[18.962s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/environment/path.sh
+[18.962s] -- Installing: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/environment/path.dsv
+[18.962s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/local_setup.bash
+[18.962s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/local_setup.sh
+[18.962s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/local_setup.zsh
+[18.962s] -- Installing: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/local_setup.dsv
+[18.962s] -- Installing: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/package.dsv
+[18.962s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/ament_index/resource_index/packages/gimbal_control_25
+[18.963s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/cmake/gimbal_control_25Config.cmake
+[18.963s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/cmake/gimbal_control_25Config-version.cmake
+[18.963s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/package.xml
+[18.965s] Invoked command in '/home/jaehwan/rohang25_R1/build/gimbal_control_25' returned '0': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/gimbal_control_25

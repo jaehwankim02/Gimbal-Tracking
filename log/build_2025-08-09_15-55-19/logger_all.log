@@ -1,0 +1,643 @@
+[0.179s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.179s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79c7518297e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79c751829300>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79c751829300>>)
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.245s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jaehwan/rohang25_R1'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/geolocation_kf_25) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/geolocation_kf_25) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/geolocation_kf_25) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/geolocation_kf_25) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/geolocation_kf_25) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/geolocation_kf_25) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/geolocation_kf_25) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/geolocation_kf_25) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/geolocation_kf_25) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package 'src/geolocation_kf_25' with type 'ros.ament_cmake' and name 'geolocation_kf_25'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_control_25) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_control_25) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_control_25) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_control_25) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_control_25) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_control_25) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_control_25) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_control_25) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_control_25) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gimbal_control_25' with type 'ros.ament_cmake' and name 'gimbal_control_25'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gscam) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gscam' with type 'ros.ament_cmake' and name 'gscam'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25) by extension 'ros'
+[0.286s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rohang25' with type 'ros.ament_cmake' and name 'rohang25'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25_test) by extensions ['ignore', 'ignore_ament_install']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25_test) by extension 'ignore'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25_test) by extension 'ignore_ament_install'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25_test) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25_test) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25_test) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25_test) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25_test) by extensions ['ros']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/rohang25_test) by extension 'ros'
+[0.288s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rohang25_test' with type 'ros.ament_cmake' and name 'rohang25_test'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11) by extension 'ros'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11) by extensions ['cmake', 'python']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11) by extension 'cmake'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11) by extension 'python'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11) by extensions ['python_setup_py']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11) by extension 'python_setup_py'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src) by extension 'ros'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src) by extensions ['cmake', 'python']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src) by extension 'cmake'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src) by extension 'python'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src) by extensions ['python_setup_py']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src) by extension 'python_setup_py'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11) by extension 'colcon_pkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11) by extensions ['colcon_meta']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11) by extensions ['ros']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11) by extension 'ros'
+[0.292s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov11/src/yolov11' with type 'ros.ament_python' and name 'yolov11'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11_msgs) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11_msgs) by extension 'ignore_ament_install'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11_msgs) by extensions ['colcon_pkg']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11_msgs) by extension 'colcon_pkg'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11_msgs) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11_msgs) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11_msgs) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov11/src/yolov11_msgs) by extension 'ros'
+[0.294s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov11/src/yolov11_msgs' with type 'ros.ament_cmake' and name 'yolov11_msgs'
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.333s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/jaehwan/rohang25_R1/install
+[0.334s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 296 installed packages in /opt/ros/humble
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_target' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_clean_first' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_force_configure' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'ament_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.394s] DEBUG:colcon.colcon_core.verb:Building package 'gscam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaehwan/rohang25_R1/build/gscam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaehwan/rohang25_R1/install/gscam', 'merge_install': False, 'path': '/home/jaehwan/rohang25_R1/src/gscam', 'symlink_install': False, 'test_result_base': None}
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaehwan/rohang25_R1/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaehwan/rohang25_R1/install/px4_msgs', 'merge_install': False, 'path': '/home/jaehwan/rohang25_R1/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'yolov11_msgs' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'yolov11_msgs' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'yolov11_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'yolov11_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'yolov11_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'yolov11_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'yolov11_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'yolov11_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'yolov11_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'yolov11_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaehwan/rohang25_R1/build/yolov11_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaehwan/rohang25_R1/install/yolov11_msgs', 'merge_install': False, 'path': '/home/jaehwan/rohang25_R1/src/yolov11/src/yolov11_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'geolocation_kf_25' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'geolocation_kf_25' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'geolocation_kf_25' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'geolocation_kf_25' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'geolocation_kf_25' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'geolocation_kf_25' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'geolocation_kf_25' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'geolocation_kf_25' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'geolocation_kf_25' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'geolocation_kf_25' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaehwan/rohang25_R1/build/geolocation_kf_25', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaehwan/rohang25_R1/install/geolocation_kf_25', 'merge_install': False, 'path': '/home/jaehwan/rohang25_R1/src/geolocation_kf_25', 'symlink_install': False, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'gimbal_control_25' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'gimbal_control_25' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'gimbal_control_25' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'gimbal_control_25' build argument 'cmake_clean_cache' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'gimbal_control_25' build argument 'cmake_clean_first' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'gimbal_control_25' build argument 'cmake_force_configure' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'gimbal_control_25' build argument 'ament_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'gimbal_control_25' build argument 'catkin_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'gimbal_control_25' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'gimbal_control_25' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaehwan/rohang25_R1/build/gimbal_control_25', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaehwan/rohang25_R1/install/gimbal_control_25', 'merge_install': False, 'path': '/home/jaehwan/rohang25_R1/src/gimbal_control_25', 'symlink_install': False, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'rohang25' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'rohang25' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'rohang25' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'rohang25' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'rohang25' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'rohang25' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'rohang25' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'rohang25' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'rohang25' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'rohang25' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaehwan/rohang25_R1/build/rohang25', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaehwan/rohang25_R1/install/rohang25', 'merge_install': False, 'path': '/home/jaehwan/rohang25_R1/src/rohang25', 'symlink_install': False, 'test_result_base': None}
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rohang25_test' build argument 'cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rohang25_test' build argument 'cmake_target' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rohang25_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rohang25_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rohang25_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rohang25_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rohang25_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rohang25_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'rohang25_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.399s] DEBUG:colcon.colcon_core.verb:Building package 'rohang25_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaehwan/rohang25_R1/build/rohang25_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaehwan/rohang25_R1/install/rohang25_test', 'merge_install': False, 'path': '/home/jaehwan/rohang25_R1/src/rohang25_test', 'symlink_install': False, 'test_result_base': None}
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'yolov11' build argument 'cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'yolov11' build argument 'cmake_target' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'yolov11' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'yolov11' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'yolov11' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'yolov11' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'yolov11' build argument 'ament_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'yolov11' build argument 'catkin_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'yolov11' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.400s] DEBUG:colcon.colcon_core.verb:Building package 'yolov11' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaehwan/rohang25_R1/build/yolov11', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaehwan/rohang25_R1/install/yolov11', 'merge_install': False, 'path': '/home/jaehwan/rohang25_R1/src/yolov11/src/yolov11', 'symlink_install': False, 'test_result_base': None}
+[0.400s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.401s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.401s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jaehwan/rohang25_R1/src/px4_msgs' with build type 'ament_cmake'
+[0.401s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jaehwan/rohang25_R1/src/px4_msgs'
+[0.405s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.410s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jaehwan/rohang25_R1/src/yolov11/src/yolov11_msgs' with build type 'ament_cmake'
+[0.410s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jaehwan/rohang25_R1/src/yolov11/src/yolov11_msgs'
+[0.410s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.410s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.419s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jaehwan/rohang25_R1/src/gscam' with build type 'ament_cmake'
+[0.419s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jaehwan/rohang25_R1/src/gscam'
+[0.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaehwan/rohang25_R1/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/px4_msgs -- -j12 -l12
+[0.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaehwan/rohang25_R1/build/yolov11_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/yolov11_msgs -- -j12 -l12
+[0.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaehwan/rohang25_R1/build/gscam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/gscam -- -j12 -l12
+[0.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaehwan/rohang25_R1/build/gscam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/gscam -- -j12 -l12
+[0.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaehwan/rohang25_R1/build/gscam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/gscam
+[0.646s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gscam)
+[0.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaehwan/rohang25_R1/build/gscam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/gscam
+[0.650s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gscam' for CMake module files
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gscam' for CMake config files
+[0.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('gscam', 'cmake_prefix_path')
+[0.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/hook/cmake_prefix_path.ps1'
+[0.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/hook/cmake_prefix_path.dsv'
+[0.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/hook/cmake_prefix_path.sh'
+[0.654s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gscam/lib'
+[0.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('gscam', 'ld_library_path_lib')
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/hook/ld_library_path_lib.ps1'
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/hook/ld_library_path_lib.dsv'
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/hook/ld_library_path_lib.sh'
+[0.656s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gscam/bin'
+[0.656s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gscam/lib/pkgconfig/gscam.pc'
+[0.656s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gscam/lib/python3.10/site-packages'
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gscam/bin'
+[0.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/package.ps1'
+[0.658s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/package.dsv'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/package.sh'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/package.bash'
+[0.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/package.zsh'
+[0.660s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaehwan/rohang25_R1/install/gscam/share/colcon-core/packages/gscam)
+[0.662s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gscam)
+[0.662s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gscam' for CMake module files
+[0.663s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gscam' for CMake config files
+[0.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('gscam', 'cmake_prefix_path')
+[0.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/hook/cmake_prefix_path.ps1'
+[0.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/hook/cmake_prefix_path.dsv'
+[0.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/hook/cmake_prefix_path.sh'
+[0.668s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gscam/lib'
+[0.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('gscam', 'ld_library_path_lib')
+[0.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/hook/ld_library_path_lib.ps1'
+[0.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/hook/ld_library_path_lib.dsv'
+[0.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/hook/ld_library_path_lib.sh'
+[0.671s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gscam/bin'
+[0.671s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gscam/lib/pkgconfig/gscam.pc'
+[0.672s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gscam/lib/python3.10/site-packages'
+[0.672s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gscam/bin'
+[0.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/package.ps1'
+[0.673s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/package.dsv'
+[0.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/package.sh'
+[0.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/package.bash'
+[0.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/gscam/share/gscam/package.zsh'
+[0.674s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaehwan/rohang25_R1/install/gscam/share/colcon-core/packages/gscam)
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaehwan/rohang25_R1/build/yolov11_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/yolov11_msgs -- -j12 -l12
+[1.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaehwan/rohang25_R1/build/yolov11_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/yolov11_msgs
+[1.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov11_msgs)
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11_msgs' for CMake module files
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11_msgs' for CMake config files
+[1.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov11_msgs', 'cmake_prefix_path')
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/hook/cmake_prefix_path.ps1'
+[1.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaehwan/rohang25_R1/build/yolov11_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/yolov11_msgs
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/hook/cmake_prefix_path.dsv'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/hook/cmake_prefix_path.sh'
+[1.182s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib'
+[1.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov11_msgs', 'ld_library_path_lib')
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/hook/ld_library_path_lib.ps1'
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/hook/ld_library_path_lib.dsv'
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/hook/ld_library_path_lib.sh'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11_msgs/bin'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib/pkgconfig/yolov11_msgs.pc'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib/python3.10/site-packages'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11_msgs/bin'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/package.ps1'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/package.dsv'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/package.sh'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/package.bash'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/package.zsh'
+[1.187s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/colcon-core/packages/yolov11_msgs)
+[1.188s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov11_msgs)
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11_msgs' for CMake module files
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11_msgs' for CMake config files
+[1.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov11_msgs', 'cmake_prefix_path')
+[1.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/hook/cmake_prefix_path.ps1'
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/hook/cmake_prefix_path.dsv'
+[1.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/hook/cmake_prefix_path.sh'
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib'
+[1.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov11_msgs', 'ld_library_path_lib')
+[1.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/hook/ld_library_path_lib.ps1'
+[1.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/hook/ld_library_path_lib.dsv'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/hook/ld_library_path_lib.sh'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11_msgs/bin'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib/pkgconfig/yolov11_msgs.pc'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib/python3.10/site-packages'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11_msgs/bin'
+[1.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/package.ps1'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/package.dsv'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/package.sh'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/package.bash'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/yolov11_msgs/package.zsh'
+[1.201s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaehwan/rohang25_R1/install/yolov11_msgs/share/colcon-core/packages/yolov11_msgs)
+[1.201s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jaehwan/rohang25_R1/src/yolov11/src/yolov11' with build type 'ament_python'
+[1.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov11', 'ament_prefix_path')
+[1.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/yolov11/share/yolov11/hook/ament_prefix_path.ps1'
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/yolov11/share/yolov11/hook/ament_prefix_path.dsv'
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/yolov11/share/yolov11/hook/ament_prefix_path.sh'
+[1.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.593s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jaehwan/rohang25_R1/src/yolov11/src/yolov11'
+[1.594s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.594s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaehwan/rohang25_R1/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/px4_msgs -- -j12 -l12
+[1.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaehwan/rohang25_R1/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/px4_msgs
+[2.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaehwan/rohang25_R1/src/yolov11/src/yolov11': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/gscam LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaehwan/rohang25_R1/build/yolov11/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaehwan/rohang25_R1/install/yolov11/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/yolov11 build --build-base /home/jaehwan/rohang25_R1/build/yolov11/build install --record /home/jaehwan/rohang25_R1/build/yolov11/install.log --single-version-externally-managed install_data
+[2.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[2.451s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/px4_msgs' for CMake module files
+[2.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaehwan/rohang25_R1/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/px4_msgs
+[2.452s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/px4_msgs' for CMake config files
+[2.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[2.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[2.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[2.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[2.455s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/px4_msgs/lib'
+[2.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[2.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[2.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[2.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[2.456s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/px4_msgs/bin'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/px4_msgs/lib/python3.10/site-packages'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/px4_msgs/bin'
+[2.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/package.ps1'
+[2.459s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/package.dsv'
+[2.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/package.sh'
+[2.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/package.bash'
+[2.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/package.zsh'
+[2.461s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaehwan/rohang25_R1/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[2.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[2.461s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/px4_msgs' for CMake module files
+[2.462s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/px4_msgs' for CMake config files
+[2.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[2.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[2.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[2.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[2.464s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/px4_msgs/lib'
+[2.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[2.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[2.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[2.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[2.466s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/px4_msgs/bin'
+[2.466s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[2.467s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/px4_msgs/lib/python3.10/site-packages'
+[2.467s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/px4_msgs/bin'
+[2.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/package.ps1'
+[2.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/package.dsv'
+[2.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/package.sh'
+[2.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/package.bash'
+[2.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/px4_msgs/share/px4_msgs/package.zsh'
+[2.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaehwan/rohang25_R1/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[2.471s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jaehwan/rohang25_R1/src/geolocation_kf_25' with build type 'ament_cmake'
+[2.471s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jaehwan/rohang25_R1/src/geolocation_kf_25'
+[2.471s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.471s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.475s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jaehwan/rohang25_R1/src/gimbal_control_25' with build type 'ament_cmake'
+[2.475s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jaehwan/rohang25_R1/src/gimbal_control_25'
+[2.476s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.476s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.481s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jaehwan/rohang25_R1/src/rohang25' with build type 'ament_cmake'
+[2.482s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jaehwan/rohang25_R1/src/rohang25'
+[2.482s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.482s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.492s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jaehwan/rohang25_R1/src/rohang25_test' with build type 'ament_cmake'
+[2.493s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jaehwan/rohang25_R1/src/rohang25_test'
+[2.494s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaehwan/rohang25_R1/build/geolocation_kf_25': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/geolocation_kf_25 -- -j12 -l12
+[2.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaehwan/rohang25_R1/build/gimbal_control_25': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/gimbal_control_25 -- -j12 -l12
+[2.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaehwan/rohang25_R1/build/rohang25': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/rohang25 -- -j12 -l12
+[2.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaehwan/rohang25_R1/build/rohang25_test': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/rohang25_test -- -j12 -l12
+[2.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaehwan/rohang25_R1/build/gimbal_control_25' returned '0': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/gimbal_control_25 -- -j12 -l12
+[2.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaehwan/rohang25_R1/build/gimbal_control_25': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/gimbal_control_25
+[2.693s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gimbal_control_25)
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gimbal_control_25' for CMake module files
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gimbal_control_25' for CMake config files
+[2.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('gimbal_control_25', 'cmake_prefix_path')
+[2.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/hook/cmake_prefix_path.ps1'
+[2.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaehwan/rohang25_R1/build/gimbal_control_25' returned '0': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/gimbal_control_25
+[2.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/hook/cmake_prefix_path.dsv'
+[2.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/hook/cmake_prefix_path.sh'
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gimbal_control_25/lib'
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gimbal_control_25/bin'
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gimbal_control_25/lib/pkgconfig/gimbal_control_25.pc'
+[2.706s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gimbal_control_25/lib/python3.10/site-packages'
+[2.706s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gimbal_control_25/bin'
+[2.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/package.ps1'
+[2.707s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/package.dsv'
+[2.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/package.sh'
+[2.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/package.bash'
+[2.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/package.zsh'
+[2.708s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/colcon-core/packages/gimbal_control_25)
+[2.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gimbal_control_25)
+[2.709s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gimbal_control_25' for CMake module files
+[2.710s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gimbal_control_25' for CMake config files
+[2.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('gimbal_control_25', 'cmake_prefix_path')
+[2.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/hook/cmake_prefix_path.ps1'
+[2.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/hook/cmake_prefix_path.dsv'
+[2.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/hook/cmake_prefix_path.sh'
+[2.712s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gimbal_control_25/lib'
+[2.712s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gimbal_control_25/bin'
+[2.712s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gimbal_control_25/lib/pkgconfig/gimbal_control_25.pc'
+[2.713s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gimbal_control_25/lib/python3.10/site-packages'
+[2.713s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/gimbal_control_25/bin'
+[2.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/package.ps1'
+[2.716s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/package.dsv'
+[2.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/package.sh'
+[2.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/package.bash'
+[2.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/gimbal_control_25/package.zsh'
+[2.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaehwan/rohang25_R1/install/gimbal_control_25/share/colcon-core/packages/gimbal_control_25)
+[2.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaehwan/rohang25_R1/build/geolocation_kf_25' returned '0': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/geolocation_kf_25 -- -j12 -l12
+[2.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaehwan/rohang25_R1/build/geolocation_kf_25': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/geolocation_kf_25
+[2.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(geolocation_kf_25)
+[2.759s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/geolocation_kf_25' for CMake module files
+[2.759s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/geolocation_kf_25' for CMake config files
+[2.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('geolocation_kf_25', 'cmake_prefix_path')
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/hook/cmake_prefix_path.ps1'
+[2.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/hook/cmake_prefix_path.dsv'
+[2.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/hook/cmake_prefix_path.sh'
+[2.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaehwan/rohang25_R1/build/geolocation_kf_25' returned '0': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/geolocation_kf_25
+[2.764s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib'
+[2.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('geolocation_kf_25', 'ld_library_path_lib')
+[2.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/hook/ld_library_path_lib.ps1'
+[2.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/hook/ld_library_path_lib.dsv'
+[2.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/hook/ld_library_path_lib.sh'
+[2.766s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/bin'
+[2.766s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib/pkgconfig/geolocation_kf_25.pc'
+[2.766s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib/python3.10/site-packages'
+[2.767s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/bin'
+[2.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/package.ps1'
+[2.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/package.dsv'
+[2.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/package.sh'
+[2.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/package.bash'
+[2.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/package.zsh'
+[2.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/colcon-core/packages/geolocation_kf_25)
+[2.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(geolocation_kf_25)
+[2.773s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/geolocation_kf_25' for CMake module files
+[2.773s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/geolocation_kf_25' for CMake config files
+[2.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('geolocation_kf_25', 'cmake_prefix_path')
+[2.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/hook/cmake_prefix_path.ps1'
+[2.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/hook/cmake_prefix_path.dsv'
+[2.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/hook/cmake_prefix_path.sh'
+[2.777s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib'
+[2.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('geolocation_kf_25', 'ld_library_path_lib')
+[2.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/hook/ld_library_path_lib.ps1'
+[2.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/hook/ld_library_path_lib.dsv'
+[2.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/hook/ld_library_path_lib.sh'
+[2.778s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/bin'
+[2.779s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib/pkgconfig/geolocation_kf_25.pc'
+[2.779s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib/python3.10/site-packages'
+[2.779s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/bin'
+[2.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/package.ps1'
+[2.780s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/package.dsv'
+[2.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/package.sh'
+[2.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/package.bash'
+[2.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/geolocation_kf_25/package.zsh'
+[2.785s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaehwan/rohang25_R1/install/geolocation_kf_25/share/colcon-core/packages/geolocation_kf_25)
+[2.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaehwan/rohang25_R1/build/rohang25' returned '0': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/rohang25 -- -j12 -l12
+[2.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaehwan/rohang25_R1/build/rohang25': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/rohang25
+[2.814s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rohang25)
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25' for CMake module files
+[2.815s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25' for CMake config files
+[2.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaehwan/rohang25_R1/build/rohang25' returned '0': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/rohang25
+[2.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('rohang25', 'cmake_prefix_path')
+[2.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/hook/cmake_prefix_path.ps1'
+[2.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/hook/cmake_prefix_path.dsv'
+[2.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/hook/cmake_prefix_path.sh'
+[2.818s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25/lib'
+[2.818s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25/bin'
+[2.818s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25/lib/pkgconfig/rohang25.pc'
+[2.819s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25/lib/python3.10/site-packages'
+[2.819s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25/bin'
+[2.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/package.ps1'
+[2.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/package.dsv'
+[2.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/package.sh'
+[2.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/package.bash'
+[2.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/package.zsh'
+[2.821s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaehwan/rohang25_R1/install/rohang25/share/colcon-core/packages/rohang25)
+[2.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rohang25)
+[2.821s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25' for CMake module files
+[2.822s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25' for CMake config files
+[2.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('rohang25', 'cmake_prefix_path')
+[2.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/hook/cmake_prefix_path.ps1'
+[2.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/hook/cmake_prefix_path.dsv'
+[2.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/hook/cmake_prefix_path.sh'
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25/lib'
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25/bin'
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25/lib/pkgconfig/rohang25.pc'
+[2.824s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25/lib/python3.10/site-packages'
+[2.825s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25/bin'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/package.ps1'
+[2.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/package.dsv'
+[2.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/package.sh'
+[2.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/package.bash'
+[2.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/rohang25/share/rohang25/package.zsh'
+[2.828s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaehwan/rohang25_R1/install/rohang25/share/colcon-core/packages/rohang25)
+[3.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaehwan/rohang25_R1/build/rohang25_test' returned '0': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/rohang25_test -- -j12 -l12
+[3.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaehwan/rohang25_R1/build/rohang25_test': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/rohang25_test
+[3.218s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11' for CMake module files
+[3.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaehwan/rohang25_R1/src/yolov11/src/yolov11' returned '0': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/gscam LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jaehwan/rohang25_R1/build/yolov11/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaehwan/rohang25_R1/install/yolov11/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/yolov11 build --build-base /home/jaehwan/rohang25_R1/build/yolov11/build install --record /home/jaehwan/rohang25_R1/build/yolov11/install.log --single-version-externally-managed install_data
+[3.221s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11' for CMake config files
+[3.222s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11/lib'
+[3.222s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11/bin'
+[3.222s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11/lib/pkgconfig/yolov11.pc'
+[3.223s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11/lib/python3.10/site-packages'
+[3.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov11', 'pythonpath')
+[3.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/yolov11/share/yolov11/hook/pythonpath.ps1'
+[3.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/yolov11/share/yolov11/hook/pythonpath.dsv'
+[3.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/yolov11/share/yolov11/hook/pythonpath.sh'
+[3.225s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/yolov11/bin'
+[3.225s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov11)
+[3.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/yolov11/share/yolov11/package.ps1'
+[3.226s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaehwan/rohang25_R1/install/yolov11/share/yolov11/package.dsv'
+[3.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/yolov11/share/yolov11/package.sh'
+[3.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/yolov11/share/yolov11/package.bash'
+[3.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/yolov11/share/yolov11/package.zsh'
+[3.228s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaehwan/rohang25_R1/install/yolov11/share/colcon-core/packages/yolov11)
+[3.303s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rohang25_test)
+[3.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaehwan/rohang25_R1/build/rohang25_test' returned '0': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/rohang25_test
+[3.305s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25_test' for CMake module files
+[3.307s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25_test' for CMake config files
+[3.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('rohang25_test', 'cmake_prefix_path')
+[3.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/hook/cmake_prefix_path.ps1'
+[3.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/hook/cmake_prefix_path.dsv'
+[3.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/hook/cmake_prefix_path.sh'
+[3.308s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25_test/lib'
+[3.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('rohang25_test', 'ld_library_path_lib')
+[3.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/hook/ld_library_path_lib.ps1'
+[3.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/hook/ld_library_path_lib.dsv'
+[3.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/hook/ld_library_path_lib.sh'
+[3.310s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25_test/bin'
+[3.310s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25_test/lib/pkgconfig/rohang25_test.pc'
+[3.310s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25_test/lib/python3.10/site-packages'
+[3.310s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25_test/bin'
+[3.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/package.ps1'
+[3.311s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/package.dsv'
+[3.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/package.sh'
+[3.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/package.bash'
+[3.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/package.zsh'
+[3.313s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaehwan/rohang25_R1/install/rohang25_test/share/colcon-core/packages/rohang25_test)
+[3.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rohang25_test)
+[3.315s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25_test' for CMake module files
+[3.316s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25_test' for CMake config files
+[3.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('rohang25_test', 'cmake_prefix_path')
+[3.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/hook/cmake_prefix_path.ps1'
+[3.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/hook/cmake_prefix_path.dsv'
+[3.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/hook/cmake_prefix_path.sh'
+[3.318s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25_test/lib'
+[3.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('rohang25_test', 'ld_library_path_lib')
+[3.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/hook/ld_library_path_lib.ps1'
+[3.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/hook/ld_library_path_lib.dsv'
+[3.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/hook/ld_library_path_lib.sh'
+[3.320s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25_test/bin'
+[3.320s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25_test/lib/pkgconfig/rohang25_test.pc'
+[3.321s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25_test/lib/python3.10/site-packages'
+[3.321s] Level 1:colcon.colcon_core.environment:checking '/home/jaehwan/rohang25_R1/install/rohang25_test/bin'
+[3.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/package.ps1'
+[3.322s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/package.dsv'
+[3.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/package.sh'
+[3.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/package.bash'
+[3.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaehwan/rohang25_R1/install/rohang25_test/share/rohang25_test/package.zsh'
+[3.325s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaehwan/rohang25_R1/install/rohang25_test/share/colcon-core/packages/rohang25_test)
+[3.325s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.325s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.326s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.326s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.336s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.336s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.336s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.352s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.352s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaehwan/rohang25_R1/install/local_setup.ps1'
+[3.354s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jaehwan/rohang25_R1/install/_local_setup_util_ps1.py'
+[3.356s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaehwan/rohang25_R1/install/setup.ps1'
+[3.357s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaehwan/rohang25_R1/install/local_setup.sh'
+[3.357s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jaehwan/rohang25_R1/install/_local_setup_util_sh.py'
+[3.358s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaehwan/rohang25_R1/install/setup.sh'
+[3.359s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaehwan/rohang25_R1/install/local_setup.bash'
+[3.360s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaehwan/rohang25_R1/install/setup.bash'
+[3.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaehwan/rohang25_R1/install/local_setup.zsh'
+[3.362s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaehwan/rohang25_R1/install/setup.zsh'

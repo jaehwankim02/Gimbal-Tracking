@@ -1,0 +1,19 @@
+[01m[K/home/jaehwan/rohang25_R1/src/rohang25/src/control.cpp:[m[K In function ‘[01m[Kbool is_increase_dist(double)[m[K’:
+[01m[K/home/jaehwan/rohang25_R1/src/rohang25/src/control.cpp:204:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  204 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/jaehwan/rohang25_R1/src/rohang25/src/main_offboard.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl(std::string)[m[K’:
+[01m[K/home/jaehwan/rohang25_R1/src/rohang25/src/main_offboard.cpp:147:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KOffboardControl::current_altitude_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  147 |         float [01;35m[Kcurrent_altitude_[m[K;
+      |               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jaehwan/rohang25_R1/src/rohang25/src/main_offboard.cpp:128:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KOffboardControl::State OffboardControl::state_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  128 |         } [01;35m[Kstate_[m[K;
+      |           [01;35m[K^~~~~~[m[K
+[01m[K/home/jaehwan/rohang25_R1/src/rohang25/src/main_offboard.cpp:41:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   41 |         [01;35m[KOffboardControl[m[K(std::string px4_namespace) : Node("offboard_control"),
+      |         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jaehwan/rohang25_R1/src/rohang25/src/main_offboard.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::publish_trajectory_setpoint()[m[K’:
+[01m[K/home/jaehwan/rohang25_R1/src/rohang25/src/main_offboard.cpp:411:72:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+  411 |              if( [01;35m[Kis_arrived_hori(local_pose, WPT[i], h_err) && is_arrived_verti(local_pose, WPT[i], v_err)[m[K || is_increase_dist(remain_dist(local_pose, WPT[i])) ){
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+

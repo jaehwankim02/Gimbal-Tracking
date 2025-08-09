@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rohang25_test__py",
+		"source" : "/home/jaehwan/rohang25_R1/build/rohang25_test/rohang25_test__py"
+	}
+}

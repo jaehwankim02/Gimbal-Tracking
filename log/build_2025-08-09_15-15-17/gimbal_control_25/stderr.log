@@ -1,0 +1,16 @@
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:[m[K In member function ‘[01m[Kvoid GimbalControlNode::control_loop()[m[K’:
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:205:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble new_tilt[m[K’
+  205 |         double [01;31m[Knew_tilt[m[K = 0.5*new_tilt+0.5*last_tilt_deg_;
+      |                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:191:16:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble new_tilt[m[K’ previously declared here
+  191 |         double [01;36m[Knew_tilt[m[K = -std::atan2(v_world[1], denom) * 180.0 / M_PI;
+      |                [01;36m[K^~~~~~~~[m[K
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:206:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble new_pan[m[K’
+  206 |         double [01;31m[Knew_pan[m[K = new_pan+0.8*last_pan_deg_;
+      |                [01;31m[K^~~~~~~[m[K
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:189:16:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble new_pan[m[K’ previously declared here
+  189 |         double [01;36m[Knew_pan[m[K  = -std::atan2(v_world[0], v_world[2]) * 180.0 / M_PI;
+      |                [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gimbal_control_node.dir/build.make:76: CMakeFiles/gimbal_control_node.dir/src/gimbal_control_node_real.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gimbal_control_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

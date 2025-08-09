@@ -1,0 +1,11 @@
+[01m[K/home/jaehwan/rohang25_R1/src/geolocation_kf_25/src/geolocation_kf_node.cpp:[m[K In member function ‘[01m[Kvoid Geolocation_KF::publish_object_data()[m[K’:
+[01m[K/home/jaehwan/rohang25_R1/src/geolocation_kf_25/src/geolocation_kf_node.cpp:353:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdepth_f[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  353 |         float [01;35m[Kdepth_f[m[K;
+      |               [01;35m[K^~~~~~~[m[K
+[01m[K/home/jaehwan/rohang25_R1/src/geolocation_kf_25/src/geolocation_kf_node.cpp:466:16:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdistance_ref[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  466 |         double [01;35m[Kdistance_ref[m[K;  // distance from home point(== landing pad) -> not during rescue mission
+      |                [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jaehwan/rohang25_R1/src/geolocation_kf_25/src/geolocation_kf_node.cpp:[m[K In member function ‘[01m[KEigen::Matrix<double, 3, 3> Geolocation_KF::rotm_gimbal_3d(double, double, double)[m[K’:
+[01m[K/home/jaehwan/rohang25_R1/src/geolocation_kf_25/src/geolocation_kf_node.cpp:522:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KR_gimbal_from_body[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  522 |         Mat3 [01;35m[KR_gimbal_from_body[m[K = R_body_from_gimbal.transpose();
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~[m[K

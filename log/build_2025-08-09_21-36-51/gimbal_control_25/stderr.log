@@ -1,0 +1,9 @@
+[31mCMake Error at CMakeLists.txt:36 (add_executable):
+  add_executable cannot create target "gimbal_control_node" because another
+  target with the same name already exists.  The existing target is an
+  executable created in source directory
+  "/home/jaehwan/rohang25_R1/src/gimbal_control_25".  See documentation for
+  policy CMP0002 for more details.
+
+[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

@@ -1,0 +1,28 @@
+[0.031s] Invoking command in '/home/jaehwan/rohang25_R1/build/gimbal_control_25': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/gimbal_control_25 -- -j12 -l12
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target gimbal_control_node[0m
+[0.134s] [ 50%] Built target gimbal_status_node
+[0.140s] [ 75%] [32mBuilding CXX object CMakeFiles/gimbal_control_node.dir/src/gimbal_control_node_real.cpp.o[0m
+[5.218s] [01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:[m[K In member function ‘[01m[Kvoid GimbalControlNode::control_loop()[m[K’:
+[5.218s] [01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:204:52:[m[K [01;31m[Kerror: [m[K‘[01m[KDEAD_BAND_DEG_TILT[m[K’ was not declared in this scope; did you mean ‘[01m[KDEAD_BAND_DEG_tilt[m[K’?
+[5.218s]   204 |             std::fabs(new_tilt - last_tilt_deg_) < [01;31m[KDEAD_BAND_DEG_TILT[m[K) {
+[5.218s]       |                                                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.218s]       |                                                    [32m[KDEAD_BAND_DEG_tilt[m[K
+[5.235s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.236s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.236s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.236s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.236s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.236s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.237s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.237s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.237s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.237s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.237s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.237s]                  from [01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:1[m[K:
+[5.237s] [01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:207:55:[m[K [01;31m[Kerror: [m[K‘[01m[KDEAD_BAND_DEG[m[K’ was not declared in this scope; did you mean ‘[01m[KDEAD_BAND_DEG_PAN[m[K’?
+[5.237s]   207 |                 "Change < %.1f deg → 명령 전송 생략", [01;31m[KDEAD_BAND_DEG[m[K
+[5.237s]       |                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[10.388s] gmake[2]: *** [CMakeFiles/gimbal_control_node.dir/build.make:76: CMakeFiles/gimbal_control_node.dir/src/gimbal_control_node_real.cpp.o] Error 1
+[10.389s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gimbal_control_node.dir/all] Error 2
+[10.389s] gmake: *** [Makefile:146: all] Error 2
+[10.397s] Invoked command in '/home/jaehwan/rohang25_R1/build/gimbal_control_25' returned '2': CMAKE_PREFIX_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs:/home/jaehwan/rohang25_R1/install/px4_msgs:/home/jaehwan/rohang25_R1/install/rohang25_test:/home/jaehwan/rohang25_R1/install/gimbal_control_25:/home/jaehwan/rohang25_R1/install/geolocation_kf_25:/home/jaehwan/rohang25_R1/install/rohang25:/home/jaehwan/rohang25_R1/install/gscam:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble LD_LIBRARY_PATH=/home/jaehwan/rohang25_R1/install/yolov11_msgs/lib:/home/jaehwan/rohang25_R1/install/px4_msgs/lib:/home/jaehwan/rohang25_R1/install/rohang25_test/lib:/home/jaehwan/rohang25_R1/install/geolocation_kf_25/lib:/home/jaehwan/rohang25_R1/install/gscam/lib:/home/jaehwan/ws_offboard_control/build/rohang25:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/gimbal_control_25 -- -j12 -l12

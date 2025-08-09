@@ -1,0 +1,7 @@
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:[m[K In member function ‘[01m[Kvoid GimbalControlNode::control_loop()[m[K’:
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:201:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kencode_attitude[m[K’
+  201 |         [01;31m[Kencode_attitude[m[K(new_pan, new_tilt, yaw_hex_, pitch_hex_);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gimbal_control_node.dir/build.make:76: CMakeFiles/gimbal_control_node.dir/src/gimbal_control_node_real.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gimbal_control_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

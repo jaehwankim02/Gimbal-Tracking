@@ -1,0 +1,12 @@
+[0.010s] Invoking command in '/home/jaehwan/rohang25_R1/build/gscam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/gscam -- -j12 -l12
+[0.054s] [ 50%] Built target gscam_node
+[0.054s] [100%] Built target gscam
+[0.065s] Invoked command in '/home/jaehwan/rohang25_R1/build/gscam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble /usr/bin/cmake --build /home/jaehwan/rohang25_R1/build/gscam -- -j12 -l12
+[0.074s] Invoking command in '/home/jaehwan/rohang25_R1/build/gscam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/gscam
+[0.079s] -- Install configuration: ""
+[0.079s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/gscam/lib/libgscam.so
+[0.079s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/gscam/share/gscam/examples
+[0.079s] -- Installing: /home/jaehwan/rohang25_R1/install/gscam/share/gscam/package.dsv
+[0.080s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/gscam/share/gscam/cmake/export_gscamExport.cmake
+[0.080s] -- Up-to-date: /home/jaehwan/rohang25_R1/install/gscam/share/gscam/cmake/export_gscamExport-noconfig.cmake
+[0.081s] Invoked command in '/home/jaehwan/rohang25_R1/build/gscam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaehwan/rohang25_R1/install/yolov11:/opt/ros/humble /usr/bin/cmake --install /home/jaehwan/rohang25_R1/build/gscam

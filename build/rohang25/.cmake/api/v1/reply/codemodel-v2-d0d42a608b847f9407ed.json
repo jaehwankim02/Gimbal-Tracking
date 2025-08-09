@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f8fff61ccf436cbcf2e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rohang25",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CONTROL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CONTROL-a7ce4989536c5cad508e.json",
+					"name" : "CONTROL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CUSTOMLIB::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CUSTOMLIB-296a71b11a4bd610deac.json",
+					"name" : "CUSTOMLIB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LOG::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LOG-c8a503bef1c3088f825a.json",
+					"name" : "LOG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "offboard_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-offboard_control-5ff752a7a012811a9506.json",
+					"name" : "offboard_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rohang25_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rohang25_uninstall-45aaa724148d2837fab3.json",
+					"name" : "rohang25_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ef6b95df7ba162988a34.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jaehwan/rohang25_R1/build/rohang25",
+		"source" : "/home/jaehwan/rohang25_R1/src/rohang25"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

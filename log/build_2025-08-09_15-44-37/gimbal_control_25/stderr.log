@@ -1,0 +1,23 @@
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:[m[K In member function ‘[01m[Kvoid GimbalControlNode::control_loop()[m[K’:
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:204:52:[m[K [01;31m[Kerror: [m[K‘[01m[KDEAD_BAND_DEG_TILT[m[K’ was not declared in this scope; did you mean ‘[01m[KDEAD_BAND_DEG_tilt[m[K’?
+  204 |             std::fabs(new_tilt - last_tilt_deg_) < [01;31m[KDEAD_BAND_DEG_TILT[m[K) {
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                                    [32m[KDEAD_BAND_DEG_tilt[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:1[m[K:
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:207:55:[m[K [01;31m[Kerror: [m[K‘[01m[KDEAD_BAND_DEG[m[K’ was not declared in this scope; did you mean ‘[01m[KDEAD_BAND_DEG_PAN[m[K’?
+  207 |                 "Change < %.1f deg → 명령 전송 생략", [01;31m[KDEAD_BAND_DEG[m[K
+      |                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gimbal_control_node.dir/build.make:76: CMakeFiles/gimbal_control_node.dir/src/gimbal_control_node_real.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gimbal_control_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

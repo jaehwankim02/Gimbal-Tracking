@@ -1,0 +1,21 @@
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:96 (rosidl_target_interfaces)
+
+[0m
+[01m[K/home/jaehwan/rohang25_R1/src/rohang25_test/src/control.cpp:[m[K In function ‘[01m[Kbool is_increase_dist(double)[m[K’:
+[01m[K/home/jaehwan/rohang25_R1/src/rohang25_test/src/control.cpp:204:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  204 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/jaehwan/rohang25_R1/src/rohang25_test/src/main_offboard.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl(std::string)[m[K’:
+[01m[K/home/jaehwan/rohang25_R1/src/rohang25_test/src/main_offboard.cpp:217:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KOffboardControl::heading[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  217 |         float [01;35m[Kheading[m[K;                   // for calculation inside loop
+      |               [01;35m[K^~~~~~~[m[K
+[01m[K/home/jaehwan/rohang25_R1/src/rohang25_test/src/main_offboard.cpp:195:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KOffboardControl::State OffboardControl::state_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  195 |         } [01;35m[Kstate_[m[K;
+      |           [01;35m[K^~~~~~[m[K
+[01m[K/home/jaehwan/rohang25_R1/src/rohang25_test/src/main_offboard.cpp:57:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   57 |         [01;35m[KOffboardControl[m[K(std::string px4_namespace) : Node("offboard_control_test"),
+      |         [01;35m[K^~~~~~~~~~~~~~~[m[K

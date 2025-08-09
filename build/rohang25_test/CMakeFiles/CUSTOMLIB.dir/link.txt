@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libCUSTOMLIB.so -o libCUSTOMLIB.so CMakeFiles/CUSTOMLIB.dir/src/algebra.cpp.o CMakeFiles/CUSTOMLIB.dir/src/frame.cpp.o 

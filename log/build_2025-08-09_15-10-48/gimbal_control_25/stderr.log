@@ -1,0 +1,12 @@
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:[m[K In member function ‘[01m[Kvoid GimbalControlNode::control_loop()[m[K’:
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:196:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_pan[m[K’ was not declared in this scope; did you mean ‘[01m[Kraw_pan[m[K’?
+  196 |         if (std::fabs([01;31m[Knew_pan[m[K - last_pan_deg_) < DEAD_BAND_DEG &&
+      |                       [01;31m[K^~~~~~~[m[K
+      |                       [32m[Kraw_pan[m[K
+[01m[K/home/jaehwan/rohang25_R1/src/gimbal_control_25/src/gimbal_control_node_real.cpp:197:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_tilt[m[K’ was not declared in this scope; did you mean ‘[01m[Kraw_tilt[m[K’?
+  197 |             std::fabs([01;31m[Knew_tilt[m[K - last_tilt_deg_) < DEAD_BAND_DEG) {
+      |                       [01;31m[K^~~~~~~~[m[K
+      |                       [32m[Kraw_tilt[m[K
+gmake[2]: *** [CMakeFiles/gimbal_control_node.dir/build.make:76: CMakeFiles/gimbal_control_node.dir/src/gimbal_control_node_real.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gimbal_control_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
